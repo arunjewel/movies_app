@@ -27,7 +27,7 @@ class MoviesHomeProvider extends ChangeNotifier {
     if (_moviesList.isEmpty) {
 
       final testJsonData = {
-        'limit': '5',
+        'limit': '8',
       };
       ApiResponse value = await apiConfig.getData(
           endpointUrl: Urls.moviesList, formData: testJsonData);
