@@ -13,7 +13,7 @@ class NetworkLoading extends StatelessWidget {
     return Center(
       child: CircularProgressIndicator(
         valueColor: new AlwaysStoppedAnimation<Color>(
-          Constants.themeGradients[0],
+          Constants.themeGradients
         ),
         strokeWidth: 1.5,
       ),
